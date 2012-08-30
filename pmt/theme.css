@@ -1,0 +1,203 @@
+/**
+ * 
+ * Body Styling
+ * 
+ */
+
+body{
+
+	background-color:#d4d4d4;
+	font-family: 'Helvetica Neue','Helvetica',arial;
+
+}
+
+/**
+ *
+ *
+ *	Visitor Index Styling
+ * 
+ * 
+ */
+
+.welcome{
+	text-align: center;
+}
+	.welcome h1,h2{
+		padding      : 10px;
+		font-size    : 40px;
+		border-bottom: 1px solid #e9e9e9;
+		font-weight: lighter;
+	}
+	.welcome h2{
+		font-size: 30px;
+	}
+		.welcome h1,h2 span{
+			font-weight: bold;
+		}
+	.welcome p{
+		line-height: 1.7em;
+		width:650px;
+		margin:0 auto;
+	}
+	.welcome .login input{
+		margin:5px;
+	}
+	.login input[type=submit]{
+		width  :100px;
+		font-size: 12px;
+		padding:10px;
+	}
+
+
+
+
+/**
+ * 
+ * Projects Table Styling
+ * 
+ */
+
+.container{
+	width:960px;
+	margin:0 auto;
+}
+
+	table{
+		font-family          : 'Helvetica Neue',Helvetica,sans-serif;
+		margin               : 0 auto;
+		cursor               : default;
+		border  			 : 1px solid #0099cc;
+	}
+		table th{
+			color:#ffffff;
+			padding:20px;
+			text-align: left;
+			background-color: #0099cc;
+			font-weight: bold;
+			transition         :background-color 0.25s ease-out;
+			-webkit-transition :background-color 0.25s ease-out;
+			-moz-transition    :background-color 0.25s ease-out;
+		}
+			table th:hover{
+				background-color: #0379a0;
+			}
+
+		table th,td{
+			width:100px;
+			height:50px;
+			padding:25px;
+		}
+
+		table td{
+			padding:20px;
+			background-color:#f2f2f2;
+			transition         :background-color 0.25s ease-out;
+			-webkit-transition :background-color 0.25s ease-out;
+			-moz-transition    :background-color 0.25s ease-out;
+		}
+			table td:hover{
+				color:#eeeeee;
+				background: #242527;
+			}
+			table td:first-child{
+				font-weight: bold;
+			}
+			table td:contains('Active'){
+				background: #242527;
+			}
+			.grey{
+				color:#242527;
+				background: #e2e2e2;
+			}
+			.green{
+				color:#eeeeee;
+				background: #21bf18;
+			}
+			.black{
+				color:#eeeeee;
+				background: #242527;
+			}
+/**
+ * Buttons Styling
+ */
+
+.buttons{
+	float:right;
+	margin-top:30px;
+}
+
+.btn{
+	width:100px;
+	padding:15px;
+	font-size: 14px;
+	transition         :background-color 0.25s ease-out;
+	-webkit-transition :background-color 0.25s ease-out;
+	-moz-transition    :background-color 0.25s ease-out;
+}
+.default{
+	background: white;
+	border:1px solid #a3a3a3;
+	color:black;
+	text-decoration: none;
+}			
+			.default:hover{
+				color:#eeeeee;
+				background: #242527;
+			}
+
+/**
+ * Messages
+ */
+
+.error{
+	background:#e05c5c;
+	color:#820f0f;
+	padding:20px;
+}
+.succ{
+	background:#5bd34e;
+	color:#208715;
+	padding:20px;
+}
+
+/**
+ * 
+ * Add Project Page styling
+ * 
+ */
+
+
+input[type=text],
+input[type=password]
+{
+	-webkit-box-shadow: 0px 0px 10px 0.1px #dadada;
+	box-shadow: 0px 0px 10px 0.1px #dadada;
+	border:solid #dbdbdb 1px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 32%, #eaeaea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(32%,#ffffff), color-stop(100%,#eaeaea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 32%,#eaeaea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 32%,#eaeaea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 32%,#eaeaea 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 32%,#eaeaea 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+	height:24px;
+	border-radius: 5px;
+	padding-left:10px;
+	display:inline-block;
+	outline: 0;
+  	outline: thin dotted \9;
+  	transition:box-shadow 1s ease-in-out;
+  	-webkit-transition:box-shadow 1s ease-in-out;
+  	-moz-transition:box-shadow 1s ease-in-out;
+	width:100px;
+}
+
+	input[type=text]:focus,
+	input[type=password]:focus
+	{
+		-webkit-box-shadow: 0px 0px 10px 0.1px #b6b6b6;
+		box-shadow: 0px 0px 10px 0.1px #1775d5;
+	}
+
+
